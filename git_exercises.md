@@ -1,7 +1,7 @@
 # Hands-on Git Exercises — STATFOR Session 1
 
 **Duration:** ~55 minutes total
-**Setup:** RStudio open · Git installed · Azure DevOps access · PAT token configured
+**Setup:** RStudio open · Git installed · Azure DevOps access 
 
 > **General tip:** For all exercises, use the **RStudio Git pane buttons** rather than terminal commands. The visual interface builds the mental model first — terminal commands come in Session 2.
 
