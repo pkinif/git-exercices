@@ -11,7 +11,22 @@ Confirm these work:
 - You can open RStudio
 - `git --version` returns something in the terminal
 - You can log into Azure DevOps in your browser
-- Your Git user name + email are set:
+- Run those commands in the Rstudio Terminal
+
+```bash
+  # Check your identity is already set
+  git config --list | grep user
+```
+
+If you see something like:
+
+```bash
+user.email=pierrick.kinif.ext@eurocontrol.int
+user.name=pierrick
+```
+
+Then all good, you can start the exercice, if not, set your git user name and email: 
+
   ```bash
   git config --global user.name "Your Name"
   git config --global user.email "your-email@eurocontrol.int"
